@@ -21,12 +21,6 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-
 .imagenCarrito {
     width: 10%;
 }
@@ -46,28 +40,6 @@ body {
     color: white;
 }
 
-.liCarritoIcon {
-    position: absolute;
-    right: 20px;
-    margin-top: 5px !important;
-}
-
-.carritoIcon {
-    font-size: 1.4rem;
-
-}
-
-#botonAbrir {
-    background-color: #ebe7e1;
-    border: 1px solid #ebe7e1;
-    border-radius: 15%;
-    transition: all 1s;
-}
-
-#botonAbrir:hover {
-    background-color: rgb(172, 114, 191);
-    border: 1px solid rgb(172, 114, 191);
-}
 
 /* Section-carousel */
 .carouselIndex {
@@ -234,71 +206,77 @@ body {
 
 /* Carrito */
 
-.carritoPage {
+.fas{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.carritoPage{
     float: right;
     width: 600px;
     height: 100%;
     max-width: 100%;
-    background-color: #161822;
+    background-color:#161822;
     position: fixed;
     display: none;
     right: 0;
-    z-index: 1;
+    z-index:1 ;
     border-radius: 20px;
     box-shadow: 50px
 }
 
-.carritoPage h3 {
+.carritoPage h3{
     text-align: center;
     font-size: 30px;
     margin: 15px;
 }
 
-.productoCarrito {
+.productoCarrito{
     margin: 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.productoCarrito img {
-    width: 100px;
+.productoCarrito img{
+    width:100px;
     height: auto;
     border-radius: 20px;
 }
 
-.producto {
+.producto{
     margin: 15px;
     display: flex;
     gap: 15px;
 }
 
-.datos {
+.datos{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }
 
-.producto span {
+.producto span{
     font-size: 1.3rem;
-
+    
 }
 
-.producto p {
+.producto p{
     font-size: 1rem;
 
 }
 
-.cantidad {
+.cantidad{
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-
-
+    
+    
+    
 }
 
-.head {
+.head{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,12 +284,12 @@ body {
 
 }
 
-.precioTotal {
+.precioTotal{
     font-size: 1.7rem;
     font-weight: 600;
-
+    
 }
 
-h4 {
+h4{
     text-align: center;
 }

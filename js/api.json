@@ -1,0 +1,90 @@
+[
+   
+
+    {
+        "precio": 15000,
+        "id": 1,
+        "title": "Nvidia GTX 1650",
+        "img": "https://www.venex.com.ar/products_images/thumb/1615555092_placa-de-video-msi-nvidia-geforce-gtx-1650-ventus-xs-oc-4g.jpg"
+
+    },
+    {
+        "precio": 25000,
+        "id": 2,
+        "title": "Nvidia Palit GTX 1660",
+        "img": "https://www.venex.com.ar/products_images/thumb/1628541467_s6d5f4g6sdf.jpg"
+
+    },
+    {
+        "precio": 37000,
+        "id": 3,
+        "title": "Nvidia Msi SRTX 3070",
+        "img": "https://www.venex.com.ar/products_images/thumb/1611082306_placa-de-video-msi-nvidia-geforce-rtx-3070-gaming-x-trio-8gb.jpg"
+
+    },
+    {
+        "precio": 39000,
+        "id": 4,
+        "title": "Nvidia Rog Strig RTX 3070",
+        "img": "https://www.venex.com.ar/products_images/thumb/1611082385_placa-de-video-asus-nvidia-geforce-rtx-3070-strix-o8g-gaming.jpg"
+
+    },
+    {
+        "precio": 32000,
+        "id": 5,
+        "title": "AMD Pulse RX 6700XT",
+        "img": "https://www.venex.com.ar/products_images/thumb/1629386364_11306_05_rx6700xt_pulse_12gbgddr6_3dp_hdmi_lbc_02.jpg"
+
+    },
+    {
+        "precio": 36000,
+        "id": 6,
+        "title": "NNvida RTX 3060 TI",
+        "img": "https://www.venex.com.ar/products_images/thumb/1607711690_placadevideopalitnvidiageforcertx3060tidual8gbgddr6256bit.jpg"
+
+    },
+    {
+        "precio": 29000,
+        "id": 7,
+        "title": "Intel Core i7 10700k",
+        "img": "https://www.venex.com.ar/products_images/thumb/1617202350_microprocesador_intel_i7_10700k_cometlake_8-16_5.1ghz_16mb_lga1200.jpg"
+
+    },
+    {
+        "precio": 34000,
+        "id": 8,
+        "title": "AMD Ryzen 7 5700g",
+        "img": "https://www.venex.com.ar/products_images/thumb/1628784194_microprocesador-amd-ryzen-5600g-4.4-ghz-am4.jpg"
+
+    },
+    {
+        "precio": 33000,
+        "id": 9,
+        "title": "Intel Core i7 11700K",
+        "img": "https://www.venex.com.ar/products_images/thumb/1626718506_microprocesador_intel_core_i7_11700.jpg"
+
+    },
+    {
+        "precio": 35000,
+        "id": 10,
+        "title": "Monitor Samsung 144hz",
+        "img": "https://www.venex.com.ar/products_images/thumb/1617907137_f10df2g.jpg"
+
+    },
+    {
+        "precio": 17000,
+        "id": 11,
+        "title": "Mother Aorus A520M",
+        "img": "https://www.venex.com.ar/products_images/thumb/1607784001_xghcgghjc.jpg"
+
+    },
+    {
+        "precio": 11000,
+        "id": 12,
+        "title": "Mother GYGABYTE B460M",
+        "img": "https://www.venex.com.ar/products_images/thumb/1628170683_ad65fg1.jpg"
+
+    }
+    
+    
+]

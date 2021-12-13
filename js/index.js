@@ -1,4 +1,4 @@
-const API = '../api.json';
+const API = 'js/api.json';
 let carrito = {};
 
 $(".head").hide();
@@ -39,12 +39,12 @@ const getData = (apiUrl) => {
 const printData = (data) => {
     let html = '';
     data.forEach(c => {
-        html += '<div class="col-xl-3 col-lg-6 col-md-12 col-xs-12 carta contenedorProductos">' +
+        html += '<div class="col-xl-3 col-lg-6 col-md-12 col-xs-12 carta">' +
             '<div>' +
             '<img src="' + c.img + '" class="imgCart">' +
             '<span class="precio">$' + c.precio + '</span>' +
-            '<h5 class="descripcion">' + c.tipo+" "+c.nombreProducto + '</h5>' +
-            '<button class="btn-grad botonAnadir" id="' + c.id + '"> ' + "Añadir al carro" + '</button>' +
+            '<p class="descripcion">' + c.title + '</p>' +
+            '<button class="btn-grad" id="' + c.id + '"> ' + "Agregar" + '</button>' +
             '</div>' +
             '</div>'
 
@@ -107,7 +107,7 @@ const setCarrito = objeto => {
 
     const producto = {
         id: objeto.querySelector('.btn-grad').id,
-        title: objeto.querySelector('h5').textContent,
+        title: objeto.querySelector('p').textContent,
         precio: precioAct,
         img: objeto.querySelector('img').src,
         cantidad: 1,
@@ -131,7 +131,7 @@ const setCarrito = objeto => {
 const addCarrito = () => {
     $(".productoCarrito").html('');
     Object.values(carrito).forEach(producto => {
-        $(".productoCarrito").append('<div class="producto" > <div> <img src='+producto.img +'alt=""> </div>' +
+        $(".productoCarrito").append('<div class="producto" >    <div> <img src="' + producto.img + '" alt=""> </div>' +
             '<div class"datos"> <h4>' + producto.title + '</h4>' +
             '<span class = "precioFinal">$' + producto.precio * producto.cantidad + '</span>' +
             '<div class="cantidad"> <button class= "btn btn-info btn-sm" data-id="' + producto.id + '"> + </button> <span class="cantidad"> ' + producto.cantidad + '</span> <button class= "btn btn-danger btn-sm" data-id="' + producto.id + '"> - </button> </div> </div> </div> '
@@ -170,4 +170,5 @@ $(".fas").click(function () {
 
 //se llama a la funcion de la api
 getData(API);
+
 
