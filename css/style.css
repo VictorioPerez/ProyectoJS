@@ -164,14 +164,6 @@ body {
     border-radius: 25px;
 }
 
-.copyright {
-    padding-top: 2em;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1rem;
-    color: black;
-}
-
 .listasRedesSociales {
     list-style: none;
     text-decoration: none;
