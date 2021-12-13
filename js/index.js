@@ -39,12 +39,12 @@ const getData = (apiUrl) => {
 const printData = (data) => {
     let html = '';
     data.forEach(c => {
-        html += '<div class="col-xl-3 col-lg-6 col-md-12 col-xs-12 carta">' +
+        html += '<div class="col-xl-3 col-lg-6 col-md-12 col-xs-12 carta contenedorProductos">' +
             '<div>' +
             '<img src="' + c.img + '" class="imgCart">' +
             '<span class="precio">$' + c.precio + '</span>' +
-            '<p class="descripcion">' + c.title + '</p>' +
-            '<button class="btn-grad" id="' + c.id + '"> ' + "Agregar" + '</button>' +
+            '<h5 class="descripcion">' + c.title + '</h5>' +
+            '<button class="btn-grad botonAnadir" id="' + c.id + '"> ' + "Agregar" + '</button>' +
             '</div>' +
             '</div>'
 
@@ -107,7 +107,7 @@ const setCarrito = objeto => {
 
     const producto = {
         id: objeto.querySelector('.btn-grad').id,
-        title: objeto.querySelector('p').textContent,
+        title: objeto.querySelector('h5').textContent,
         precio: precioAct,
         img: objeto.querySelector('img').src,
         cantidad: 1,

@@ -39,7 +39,9 @@ body {
 .navbarText:hover {
     color: white;
 }
-
+.fa-shopping-cart{
+    padding-right: 20px !important;
+}
 
 /* Section-carousel */
 .carouselIndex {
@@ -60,33 +62,33 @@ body {
 }
 
 /* ------Productos-------- */
-.tituloH2 {
+.tituloProductos {
     margin-top: 20px;
     position: relative;
     text-align: center;
 }
 
-.tituloH2::after {
+.tituloProductos::after {
     content: '';
     position: absolute;
-    width: 24rem;
+    width: 23rem;
     height: 2px;
     background-color: rgb(78, 23, 79);
     top: 0.7em;
-    left: 130px;
+    left: 90px;
 }
 
-.tituloH2::before {
+.tituloProductos::before {
     content: '';
     position: absolute;
-    width: 26rem;
+    width: 25rem;
     height: 2px;
     background-color: rgb(78, 23, 79);
     top: 0.7em;
-    right: 100px;
+    right: 60px;
 }
 
-.tituloH2::first-letter {
+.tituloProductos::first-letter {
     color: rgb(78, 23, 79);
 }
 
@@ -99,9 +101,9 @@ body {
 .contenedorProductos{
     border: 2px solid rgb(172, 114, 191);;
     border-radius: 20px;
-    box-shadow:7px 5px rgb(172, 114, 191);
-    margin: 15px;
-    padding: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+    margin: 20px;
+    padding: 5px;
 }
 .productos {
     padding-right: 10px;
@@ -112,7 +114,8 @@ body {
 }
 
 .imgCart {
-    width: 80%;
+    height: 50%;
+    width: 75%;
 }
 
 .precio {
@@ -136,9 +139,13 @@ body {
 }
 
 /* FOOTER */
-.pieDePagina {
+.pieDePagina{
     align-items: center;
-    margin-top:1000px;
+    background-color: #ebe7e1;
+}
+.pieDePaginaProductos {
+    align-items: center;
+    margin-top:1400px;
     background-color: #ebe7e1;
 }
 
@@ -217,7 +224,7 @@ body {
     width: 600px;
     height: 100%;
     max-width: 100%;
-    background-color:#161822;
+    background-color:#ebe7e1;
     position: fixed;
     display: none;
     right: 0;

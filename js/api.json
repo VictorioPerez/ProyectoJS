@@ -2,17 +2,17 @@
    
 
     {
-        "precio": 15000,
+        "precio": 19799,
         "id": 1,
-        "title": "Nvidia GTX 1650",
-        "img": "https://www.venex.com.ar/products_images/thumb/1615555092_placa-de-video-msi-nvidia-geforce-gtx-1650-ventus-xs-oc-4g.jpg"
+        "title": "Microfono HyperX QuadCast PS4",
+        "img": "https://www.venex.com.ar/products_images/1604518019_hxproductquadcasts1zmlg.jpg"
 
     },
     {
         "precio": 25000,
         "id": 2,
         "title": "Nvidia Palit GTX 1660",
-        "img": "https://www.venex.com.ar/products_images/thumb/1628541467_s6d5f4g6sdf.jpg"
+        "img": "https://www.venex.com.ar/products_images/1617907137_f10df2g.png"
 
     },
     {
@@ -23,17 +23,17 @@
 
     },
     {
-        "precio": 39000,
+        "precio": 15000,
         "id": 4,
-        "title": "Nvidia Rog Strig RTX 3070",
-        "img": "https://www.venex.com.ar/products_images/thumb/1611082385_placa-de-video-asus-nvidia-geforce-rtx-3070-strix-o8g-gaming.jpg"
+        "title": "Teclado Patriot V770 RGB ",
+        "img": "https://www.venex.com.ar/products_images/1615579584_pv770mrumxgm_g.jpg"
 
     },
     {
-        "precio": 32000,
+        "precio": 12000,
         "id": 5,
-        "title": "AMD Pulse RX 6700XT",
-        "img": "https://www.venex.com.ar/products_images/thumb/1629386364_11306_05_rx6700xt_pulse_12gbgddr6_3dp_hdmi_lbc_02.jpg"
+        "title": "Auriculares HyperX Cloud II",
+        "img": "https://www.venex.com.ar/mods/html/fil/Model/ProductGrouper/27/5b8c64ccc7ba1-1429219484957-26030190-9173.jpg"
 
     },
     {
@@ -51,10 +51,10 @@
 
     },
     {
-        "precio": 34000,
+        "precio": 64000,
         "id": 8,
-        "title": "AMD Ryzen 7 5700g",
-        "img": "https://www.venex.com.ar/products_images/thumb/1628784194_microprocesador-amd-ryzen-5600g-4.4-ghz-am4.jpg"
+        "title": "Notebook HP 240 G8 ",
+        "img": "https://www.venex.com.ar/products_images/1635534833_notebook-hp-240-g8-i3-1005g1-4gb-1tb-14-free.jpg"
 
     },
     {
@@ -72,10 +72,10 @@
 
     },
     {
-        "precio": 17000,
+        "precio": 43990,
         "id": 11,
-        "title": "Mother Aorus A520M",
-        "img": "https://www.venex.com.ar/products_images/thumb/1607784001_xghcgghjc.jpg"
+        "title": "Volante G29 Logitech",
+        "img": "https://www.venex.com.ar/products_images/1513968860_logitechg29racingwheel.jpg"
 
     },
     {
