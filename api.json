@@ -1,0 +1,58 @@
+[{
+        "id": 1,
+        "tipo": "Auriculares",
+        "nombreProducto": "HyperX Cloud 2",
+        "img": "https://www.venex.com.ar/products_images/thumb/1615555092_placa-de-video-msi-nvidia-geforce-gtx-1650-ventus-xs-oc-4g.jpg",
+        "precio": 13000
+    },
+    {
+        "id": 2,
+        "tipo": "Microfono",
+        "nombreProducto": "HyperX QuadCast",
+        "img": "https://www.venex.com.ar/products_images/thumb/1628541467_s6d5f4g6sdf.jpg",
+        "precio": 23000
+
+    },
+    {
+        "id": 3,
+        "tipo": "Teclado",
+        "nombreProducto": "HyperX Elite 2",
+        "img": "https://www.venex.com.ar/products_images/thumb/1611082306_placa-de-video-msi-nvidia-geforce-rtx-3070-gaming-x-trio-8gb.jpg",
+        "precio": 12750
+    },
+    {
+        "id": 4,
+        "tipo": "Prueba1",
+        "nombreProducto": "HyperX Pulsefire Haste",
+        "img": "https://www.venex.com.ar/products_images/thumb/1611082385_placa-de-video-asus-nvidia-geforce-rtx-3070-strix-o8g-gaming.jpg",
+        "precio": 6700
+    },
+    {
+        "id": 5,
+        "tipo": "Prueba",
+        "nombreProducto": "HyperX Pulsefire Haste",
+        "img": "https://www.venex.com.ar/products_images/thumb/1629386364_11306_05_rx6700xt_pulse_12gbgddr6_3dp_hdmi_lbc_02.jpg",
+        "precio": 6700
+    },
+    {
+        "id": 6,
+        "tipo": "Prueba2",
+        "nombreProducto": "HyperX Pulsefire Haste",
+        "img": "https://www.venex.com.ar/products_images/thumb/1607711690_placadevideopalitnvidiageforcertx3060tidual8gbgddr6256bit.jpg",
+        "precio": 6700
+    },
+    {
+        "id": 7,
+        "tipo": "Prueba3",
+        "nombreProducto": "HyperX Pulsefire Haste",
+        "img": "https://www.venex.com.ar/products_images/thumb/1617202350_microprocesador_intel_i7_10700k_cometlake_8-16_5.1ghz_16mb_lga1200.jpg",
+        "precio": 6700
+    },
+    {
+        "id": 8,
+        "tipo": "Prueba4",
+        "nombreProducto": "HyperX Pulsefire Haste",
+        "img": "https://www.venex.com.ar/products_images/thumb/1628784194_microprocesador-amd-ryzen-5600g-4.4-ghz-am4.jpg",
+        "precio": 6700
+    }
+]

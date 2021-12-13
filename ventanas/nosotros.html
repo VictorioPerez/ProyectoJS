@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------------------------------------------------------------------->
+    <!-- bt -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbarTodoGamer">
+            <div class="container-fluid">
+                <span>
+                    <a class="navbar-brand" href="">
+                        <img src="../imagenes/Logo.png" alt="Imagen logo" class="imagenLogo">
+                        TodoGamer
+                    </a>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ulNavbar">
+                        <li class="nav-item mx-3 sectionNavbar">
+                            <a class="nav-link active text-dark" aria-current="page" href="../index.html"> <span
+                                    class="navbarText">Inicio</span></a>
+                        </li>
+                        <li class="nav-item dropdown mx-3 sectionNavbar">
+                            <a class="nav-link dropdown-toggle text-dark" href="productos.html" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="navbarText">Productos</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="productos.html">PC</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="productos.html">Consolas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3 sectionNavbar">
+                            <a class="nav-link text-dark" href="contacto.html"> <span
+                                    class="navbarText">Contacto</span></a>
+                        </li>
+                        <li class="nav-item mx-3 sectionNavbar">
+                            <a class="nav-link text-dark" href="nosotros.html"> <span
+                                    class="navbarText">Nosotros</span></a>
+                        </li>
+                        <li class="nav-item mx-5 liCarritoIcon">
+                            <button type="button" id="botonAbrir">
+                                <i class="bi bi-cart carritoIcon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1 class="text-center tituloNosotros">¿Dónde encontrarnos?</h1>
+        <div class="text-center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.9627628250964!2d-68.84163784972347!3d-32.899152776721046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09184d3b8901%3A0xa2f95cf30542aca!2sMega%20Tecnolog%C3%ADa!5e0!3m2!1ses-419!2sar!4v1639206935045!5m2!1ses-419!2sar"
+                width="1000" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <h2 class="tituloNosotros text-center">Usuarios satisfechos</h2>
+        <div class="text-center">
+            <img src="../imagenes/nosotrosReseña.png" alt="Reseña del local">
+        </div>
+        <h2 class="tituloNosotros text-center">Seguinos en nuestras redes principales para no perderte de nada!</h2>
+        <div class="text-center mb-4">
+            <img src="../imagenes/nosotrosRedes.png" alt="Reseña del local">
+        </div>
+    </section>
+    <footer class="pieDePagina container-fluid">
+
+        <section>
+            <section class="text-center newsletter">
+                <div class="container-fluid">
+                    <h2 class="newsletterTitulo">¿Querés enterarte primero sobre todas las promociones?</h2>
+                    <p>Suscribite a nuestro boletín y recibí todas las noticias nuevas en el momento.</p>
+                    <input type="text" placeholder="Ingresá tu email" class="inputNewsLetter">
+                    <input type="button" value="Enviar" class="botonNewsLetter">
+                </div>
+            </section>
+            <nav>
+                <ul class="listasRedesSociales">
+                    <li><a href="https://www.google.com" target="_blank">
+                            <img src="../imagenes/facebook(2).png" alt="facebook logo" class="navegacionRedes"> </a>
+                    </li>
+                    <li><a href="https://www.google.com" target="_blank">
+                            <img src="../imagenes/Instagram.png" alt="instagram logo" class="navegacionRedes"></a></li>
+                    <li><a href="https://www.google.com" target="_blank">
+                            <img src="../imagenes/twitter.png" alt="twitter logo" class="navegacionRedes"> </a></li>
+                    <li><a href="https://www.google.com" target="_blank">
+                            <img src="../imagenes/discord.png" alt="discord logo" class="navegacionRedes"></a></li>
+                </ul>
+            </nav>
+    </footer>
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

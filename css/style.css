@@ -1,0 +1,317 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+/* HEADER */
+.navbarTodoGamer {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: #ebe7e1 !important;
+}
+
+.imagenLogo {
+    width: 20%;
+}
+
+.ulNavbar {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.imagenCarrito {
+    width: 10%;
+}
+
+.sectionNavbar:hover {
+    transition: all 1s;
+    background-color: rgb(172, 114, 191);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-spacing: 0px;
+}
+
+.navbarText {
+    font-size: 1.3rem;
+}
+
+.navbarText:hover {
+    color: white;
+}
+
+.liCarritoIcon {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px !important;
+}
+
+.carritoIcon {
+    font-size: 1.4rem;
+
+}
+
+#botonAbrir {
+    background-color: #ebe7e1;
+    border: 1px solid #ebe7e1;
+    border-radius: 15%;
+    transition: all 1s;
+}
+
+#botonAbrir:hover {
+    background-color: rgb(172, 114, 191);
+    border: 1px solid rgb(172, 114, 191);
+}
+
+/* Section-carousel */
+.carouselIndex {
+    padding-top: 70px;
+}
+
+/* index */
+.fotoEnvios {
+    margin-left: 60px;
+    width: 90%;
+}
+
+.marcasSponsors {
+    margin-top: 15px;
+    align-items: center;
+    height: 15% !important;
+    width: 100% !important;
+}
+
+/* ------Productos-------- */
+.tituloH2 {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.tituloH2::after {
+    content: '';
+    position: absolute;
+    width: 24rem;
+    height: 2px;
+    background-color: rgb(78, 23, 79);
+    top: 0.7em;
+    left: 130px;
+}
+
+.tituloH2::before {
+    content: '';
+    position: absolute;
+    width: 26rem;
+    height: 2px;
+    background-color: rgb(78, 23, 79);
+    top: 0.7em;
+    right: 100px;
+}
+
+.tituloH2::first-letter {
+    color: rgb(78, 23, 79);
+}
+
+#productos {
+    width: 1200px !important;
+    height: 500px !important;
+    padding-top: 50px;
+    margin-left: 55px;
+}
+.contenedorProductos{
+    border: 2px solid rgb(172, 114, 191);;
+    border-radius: 20px;
+    box-shadow:7px 5px rgb(172, 114, 191);
+    margin: 15px;
+    padding: 10px;
+}
+.productos {
+    padding-right: 10px;
+    border-radius: 8%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.imgCart {
+    width: 80%;
+}
+
+.precio {
+    color: rgb(78, 23, 79);
+    font-size: 1.7rem;
+    font-weight: 500;
+    border-top: 2px solid black;
+
+}
+
+.botonAnadir {
+    margin-top: 10px;
+    background-color:rgb(172, 114, 191);
+    color: whitesmoke;
+    border: solid 1px rgb(172, 114, 191);
+    border-radius: 10px;
+}
+.bi{
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/* FOOTER */
+.pieDePagina {
+    align-items: center;
+    margin-top:1000px;
+    background-color: #ebe7e1;
+}
+
+.newsletter {
+    padding-top: 25px;
+    color: black;
+}
+
+.inputNewsLetter {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.botonNewsLetter {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.copyright {
+    padding-top: 2em;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    color: black;
+}
+
+.listasRedesSociales {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin: 0%;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+.navegacionRedes {
+    width: 1.9375rem;
+    height: 1.9375rem;
+    display: block;
+    content: "";
+    float: left;
+    margin: -0.3125rem 0.3125rem 0 0;
+}
+
+.titulo-h4 {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Página nosotros */
+.tituloNosotros {
+    padding-top: 80px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Página contacto */
+.sectionFormularioAyuda {
+    padding-top: 85px;
+}
+
+/*  */
+
+
+/* Carrito */
+
+.carritoPage {
+    float: right;
+    width: 600px;
+    height: 100%;
+    max-width: 100%;
+    background-color: #161822;
+    position: fixed;
+    display: none;
+    right: 0;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 50px
+}
+
+.carritoPage h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.productoCarrito {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.productoCarrito img {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.producto {
+    margin: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.producto span {
+    font-size: 1.3rem;
+
+}
+
+.producto p {
+    font-size: 1rem;
+
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.precioTotal {
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+
+h4 {
+    text-align: center;
+}
